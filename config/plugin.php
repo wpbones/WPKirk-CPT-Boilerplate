@@ -73,7 +73,7 @@ return [
   |
   */
 
-  'custom_post_types' => [],
+  'custom_post_types' => ['\WPKirk\CustomPostTypes\MyCustomPostType'],
 
   /*
   |--------------------------------------------------------------------------
@@ -84,7 +84,7 @@ return [
   |
   */
 
-  'custom_taxonomy_types' => [],
+  'custom_taxonomy_types' => ['\WPKirk\CustomTaxonomyTypes\MyCustomTaxonomy'],
 
 
   /*

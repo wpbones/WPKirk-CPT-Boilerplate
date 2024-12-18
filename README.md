@@ -2,14 +2,14 @@
   <img src="https://github.com/wpbones/WPBones/assets/432181/13e0e825-9b0d-44c2-a77d-1baad88a1070" alt="WP Bones Logo" />
 </p>
 
-# WP Bones Boilerplate WordPress Plugin
+# WP Bones CPT Boilerplate WordPress Plugin
 
-WP Kirk Boilerplate is your starting point to create a WordPress plugin using [WP Bones](https://wpbones.com/) Framework Library.
+WP Kirk CPT Boilerplate is your starting point to create a WordPress plugin using [WP Bones](https://wpbones.com/) Framework Library.
 
 ## Installation
 
 ```bash
-git clone -b main https://github.com/wpbones/WPKirk-Boilerplate.git <your plugin folder>
+git clone -b main https://github.com/wpbones/WPKirk-CPT-Boilerplate.git <your plugin folder>
 cd <your plugin folder>
 composer install
 ```

@@ -1,4 +1,4 @@
-=== WP Kirk Boilerplate ===
+=== WP Kirk CPT Boilerplate ===
 Contributors: gfazioli
 Donate link: https://wpbones.com/
 Tags: template, wpbones
@@ -8,11 +8,11 @@ Stable tag: 1.8.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-WP Bones Boilerplate WordPress plugin.
+WP Bones CPT Boilerplate WordPress plugin.
 
 == Description ==
 
-WP Bones Boilerplate plugin
+WP Bones CPT Boilerplate plugin
 
 == Installation ==
 

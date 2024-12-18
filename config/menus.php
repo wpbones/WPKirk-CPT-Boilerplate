@@ -30,5 +30,18 @@ return [
         ],
       ],
     ]
+  ],
+  'edit.php?post_type=wp_kirk_startship' => [
+    "menu_title" => "Custom Post Type Settings",
+    'capability' => 'read',
+    'items' => [
+      'overview' => [
+        "menu_title" => __("Settings", 'wp-kirk'),
+        'capability' => 'read',
+        'route' => [
+          'get' => 'Dashboard\SettingsController@index'
+        ],
+      ],
+    ]
   ]
 ];
