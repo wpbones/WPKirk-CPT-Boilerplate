@@ -2,10 +2,10 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Kirk Boilerplate 1.6.0\n"
+"Project-Id-Version: WP Kirk CPT Boilerplate 1.9.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-kirk\n"
-"POT-Creation-Date: 2024-11-12T12:11:09+00:00\n"
-"PO-Revision-Date: 2024-11-12 13:11+0100\n"
+"POT-Creation-Date: 2024-12-18T12:52:43+00:00\n"
+"PO-Revision-Date: 2024-12-18 13:54+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: it\n"
@@ -17,18 +17,18 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #: wp-kirk.php
-msgid "WP Kirk Boilerplate"
-msgstr "WP Kirk Boilerplate"
+msgid "WP Kirk CPT Boilerplate"
+msgstr "WP Kirk CPT Boilerplate"
 
 #. Plugin URI of the plugin
 #: wp-kirk.php
-msgid "https://github.com/wpbones/WPKirk-Boilerplate"
-msgstr "https://github.com/wpbones/WPKirk-Boilerplate"
+msgid "https://github.com/wpbones/WPKirk-CPT-Boilerplate"
+msgstr "https://github.com/wpbones/WPKirk-CPT-Boilerplate"
 
 #. Description of the plugin
 #: wp-kirk.php
-msgid "WP Bones Boilerplate WordPress plugin"
-msgstr "WP Bones Boilerplate Plugin WordPress"
+msgid "WP Bones CPT Boilerplate WordPress plugin"
+msgstr "WP Bones CPT Boilerplate Plugin WordPress"
 
 #. Author of the plugin
 #: wp-kirk.php
@@ -40,22 +40,44 @@ msgstr "Giovambattista Fazioli"
 msgid "https://wpbones.com/"
 msgstr "https://wpbones.com/"
 
-#: resources/views/dashboard/index.php:13
+#: config/menus.php:39
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: plugin/CustomPostTypes/MyCustomPostType.php:154
+#: plugin/CustomPostTypes/MyCustomPostType.php:207
+#: resources/views/cpt/code.php:12
+msgid "Starship Code"
+msgstr "Codice dell'astronave"
+
+#: plugin/CustomPostTypes/MyCustomPostType.php:234
+msgid "Enter Starship Name"
+msgstr "Inserisci il nome dell'astronave"
+
+#: resources/views/cpt/after-title.php:8
+msgid "Any view after the title"
+msgstr "Qualsiasi visualizzazione dopo il titolo"
+
+#: resources/views/cpt/code.php:8
+msgid "Starship Code for the Startship with id"
+msgstr "Codice dell'astronave per la nave iniziale con id"
+
+#: resources/views/dashboard/index.php:15
+msgid "Config Service Provider"
+msgstr "Fornitore di servizi di configurazione"
+
+#: resources/views/dashboard/index.php:22
+msgid "Custom Post Type Service Provider"
+msgstr "Provider di servizi di tipo post personalizzato"
+
+#: resources/views/dashboard/index.php:25
+msgid "Custom Taxonomy Type Service Provider"
+msgstr "Fornitore di servizi di tipo di tassonomia personalizzata"
+
+#: resources/views/dashboard/settings.php:15
 msgid "Config Menu"
 msgstr "Menu di configurazione"
 
-#: resources/views/dashboard/index.php:17
+#: resources/views/dashboard/settings.php:22
 msgid "Controller"
 msgstr "Controllore"
-
-#: resources/views/dashboard/index.php:25
-msgid "PHP Version"
-msgstr "Versione PHP"
-
-#: resources/views/dashboard/index.php:29
-msgid "ReactJS Application"
-msgstr "Applicazione ReactJS"
-
-#: public/apps/app.js:1
-msgid "Say Hello, WP Bones Application"
-msgstr "Saluta, Applicazione WP Bones"

@@ -2,31 +2,31 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Kirk Boilerplate 1.6.0\n"
+"Project-Id-Version: WP Kirk CPT Boilerplate 1.9.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-kirk\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-12T12:11:09+00:00\n"
+"POT-Creation-Date: 2024-12-18T12:52:43+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: wp-kirk\n"
 
 #. Plugin Name of the plugin
 #: wp-kirk.php
-msgid "WP Kirk Boilerplate"
+msgid "WP Kirk CPT Boilerplate"
 msgstr ""
 
 #. Plugin URI of the plugin
 #: wp-kirk.php
-msgid "https://github.com/wpbones/WPKirk-Boilerplate"
+msgid "https://github.com/wpbones/WPKirk-CPT-Boilerplate"
 msgstr ""
 
 #. Description of the plugin
 #: wp-kirk.php
-msgid "WP Bones Boilerplate WordPress plugin"
+msgid "WP Bones CPT Boilerplate WordPress plugin"
 msgstr ""
 
 #. Author of the plugin
@@ -39,22 +39,44 @@ msgstr ""
 msgid "https://wpbones.com/"
 msgstr ""
 
-#: resources/views/dashboard/index.php:13
-msgid "Config Menu"
+#: config/menus.php:39
+msgid "Settings"
 msgstr ""
 
-#: resources/views/dashboard/index.php:17
-msgid "Controller"
+#: plugin/CustomPostTypes/MyCustomPostType.php:154
+#: plugin/CustomPostTypes/MyCustomPostType.php:207
+#: resources/views/cpt/code.php:12
+msgid "Starship Code"
+msgstr ""
+
+#: plugin/CustomPostTypes/MyCustomPostType.php:234
+msgid "Enter Starship Name"
+msgstr ""
+
+#: resources/views/cpt/after-title.php:8
+msgid "Any view after the title"
+msgstr ""
+
+#: resources/views/cpt/code.php:8
+msgid "Starship Code for the Startship with id"
+msgstr ""
+
+#: resources/views/dashboard/index.php:15
+msgid "Config Service Provider"
+msgstr ""
+
+#: resources/views/dashboard/index.php:22
+msgid "Custom Post Type Service Provider"
 msgstr ""
 
 #: resources/views/dashboard/index.php:25
-msgid "PHP Version"
+msgid "Custom Taxonomy Type Service Provider"
 msgstr ""
 
-#: resources/views/dashboard/index.php:29
-msgid "ReactJS Application"
+#: resources/views/dashboard/settings.php:15
+msgid "Config Menu"
 msgstr ""
 
-#: public/apps/app.js:1
-msgid "Say Hello, WP Bones Application"
+#: resources/views/dashboard/settings.php:22
+msgid "Controller"
 msgstr ""
