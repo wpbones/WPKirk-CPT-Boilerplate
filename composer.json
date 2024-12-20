@@ -31,5 +31,10 @@
       "functions.php"
     ]
   },
-  "scripts": {}
+  "scripts": {
+    "post-autoload-dump": [
+      "php -r \"copy('vendor/wpbones/wpbones/src/Console/bin/bones', 'bones');\"",
+      "php bones rename --update"
+    ]
+  }
 }
