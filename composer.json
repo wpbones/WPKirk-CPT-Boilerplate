@@ -20,7 +20,7 @@
   },
   "require": {
     "php": ">=7.4",
-    "wpbones/wpbones": "~1.8",
+    "wpbones/wpbones": "dev-dev",
     "wpbones/wpkirk-helpers": "~2.0"
   },
   "autoload": {
@@ -31,10 +31,5 @@
       "functions.php"
     ]
   },
-  "scripts": {
-    "post-autoload-dump": [
-      "php -r \"copy('vendor/wpbones/wpbones/src/Console/bin/bones', 'bones');\"",
-      "php bones rename --update"
-    ]
-  }
+  "scripts": {}
 }

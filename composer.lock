@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc1f7b9f2e5db7e056175869f8dbd38b",
+    "content-hash": "ee8a5eac6e8c267edfb54c6997ddbf0d",
     "packages": [
         {
             "name": "eftec/bladeone",
@@ -158,8 +158,8 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "autoload": {
@@ -288,16 +288,16 @@
         },
         {
             "name": "wpbones/wpbones",
-            "version": "1.8.1",
+            "version": "dev-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wpbones/WPBones.git",
-                "reference": "4442860d4c6b8ab3d33c1fbd6826b1b9010a8f09"
+                "reference": "bd0fc7b9a6f5510a09018953a450f253d1076be4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wpbones/WPBones/zipball/4442860d4c6b8ab3d33c1fbd6826b1b9010a8f09",
-                "reference": "4442860d4c6b8ab3d33c1fbd6826b1b9010a8f09",
+                "url": "https://api.github.com/repos/wpbones/WPBones/zipball/bd0fc7b9a6f5510a09018953a450f253d1076be4",
+                "reference": "bd0fc7b9a6f5510a09018953a450f253d1076be4",
                 "shasum": ""
             },
             "require": {
@@ -344,7 +344,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-30T18:06:53+00:00"
+            "time": "2024-12-20T13:22:48+00:00"
         },
         {
             "name": "wpbones/wpkirk-helpers",
@@ -399,7 +399,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "wpbones/wpbones": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
