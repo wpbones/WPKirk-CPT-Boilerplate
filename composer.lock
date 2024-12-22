@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee8a5eac6e8c267edfb54c6997ddbf0d",
+    "content-hash": "3f69b623e551a9145f74e8ac908514f8",
     "packages": [
         {
             "name": "eftec/bladeone",
@@ -288,22 +288,23 @@
         },
         {
             "name": "wpbones/wpbones",
-            "version": "dev-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wpbones/WPBones.git",
-                "reference": "162a6137e688cd06cde08f000b6658d672c6f688"
+                "reference": "804f628e1964b6143d15637834d4ca0a70ba1141"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wpbones/WPBones/zipball/162a6137e688cd06cde08f000b6658d672c6f688",
-                "reference": "162a6137e688cd06cde08f000b6658d672c6f688",
+                "url": "https://api.github.com/repos/wpbones/WPBones/zipball/804f628e1964b6143d15637834d4ca0a70ba1141",
+                "reference": "804f628e1964b6143d15637834d4ca0a70ba1141",
                 "shasum": ""
             },
             "require": {
                 "eftec/bladeone": "^4.13",
                 "php": ">=7.4"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -344,7 +345,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-20T16:02:11+00:00"
+            "time": "2024-12-22T12:24:18+00:00"
         },
         {
             "name": "wpbones/wpkirk-helpers",
