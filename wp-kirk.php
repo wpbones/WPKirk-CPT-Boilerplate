@@ -4,7 +4,7 @@
  * Plugin Name: WP Kirk CPT Boilerplate
  * Plugin URI: https://github.com/wpbones/WPKirk-CPT-Boilerplate
  * Description: WP Bones CPT Boilerplate WordPress plugin
- * Version: 2.1.0
+ * Version: 2.1.1
  * Requires at least: 6.2
  * Requires PHP: 8.1
  * Author: Giovambattista Fazioli
